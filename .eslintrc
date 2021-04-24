@@ -1,0 +1,55 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 99,
+        "parser": "flow"
+      }
+    ],
+    "indent": [
+      "error",
+      2
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "sort-keys": [0],
+    "no-undef": [2],
+    "no-unused-vars": [2, { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+    "import/no-duplicates": [2],
+    "import/no-absolute-path": [2],
+    "import/no-self-import": [2],
+    "import/no-cycle": [2],
+    "import/no-mutable-exports": [2],
+    "import/first": [2],
+    "import/newline-after-import": [2],
+    "import/prefer-default-export": [0],
+  },
+  "extends": [
+    "plugin:import/typescript",
+    "prettier",
+  ],
+  "settings": {
+    "import/extensions": [
+      ".js",
+      ".jsx"
+    ],
+    "import/resolver": {
+      "babel-module": {}
+    },
+  },
+  "plugins": [
+    "import",
+    "prettier"
+  ],
+  "parser": "babel-eslint"
+}
+

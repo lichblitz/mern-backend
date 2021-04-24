@@ -1,0 +1,52 @@
+[
+  {
+    "title": "The Shining",
+    "year": 1980,
+    "type": "Movie"
+  },
+  {
+    "title": "Host",
+    "year": 2020,
+    "type": "Movie"
+  },
+  {
+    "title": "Pet Sematary",
+    "year": 1989,
+    "type": "Movie"
+  },
+  {
+    "title": "Split",
+    "year": 2016,
+    "type": "Movie"
+  },
+  {
+    "title": "American Psycho",
+    "year": 2000,
+    "type": "Movie"
+  },
+  {
+    "title": "Good Times",
+    "year": "1974",
+    "type": "Series"
+  },
+  {
+    "title": "Breaking Bad",
+    "year": 2008,
+    "type": "Series"
+  },
+  {
+    "title": "Community",
+    "year": 2009,
+    "type": "Series"
+  },
+  {
+    "title": "Cowboy Bebop",
+    "year": 1998,
+    "type": "Series"
+  },
+  {
+    "title": "The Office",
+    "year": 2005,
+    "type": "Series"
+  }
+]
