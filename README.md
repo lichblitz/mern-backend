@@ -5,7 +5,7 @@ ApiRest created for managing Movies/Series stored in a MongoDB.
 ## Steps to deploy
 * Install MongoDB in the machine.
 * Create a database called `mern`.
-* Create a `.env` file with `DB_URL`varaible with the `mongoDB URL for mongoose`.
+* Create a `.env` file with `DB_URL`variable with the `mongoDB URL for mongoose`.
 * (Optional) Add `PORT` to the environment file with the wanted PORT for the service.
 * Run `npm i` to install dependencies.
 * Run `npm start` to launch the service.
